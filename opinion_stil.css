@@ -1,0 +1,58 @@
+<style>
+* {
+	font-family: arial;
+}
+
+
+.mobile_grid_label {
+	font-size: 16px;
+}
+
+
+.mobile_grid_question.row_label_cell {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.question_text {
+	font-size: 14px !important;
+	color: black !important;
+	margin-bottom: 4px;
+}
+
+
+.row_label_cell {
+	padding: 0px;
+}
+
+
+.cbc_concept.best {
+	border: 1.5px solid;
+	border-color: #20AD6B;
+}
+
+
+.clickable.response_row.mobile_select {
+	margin-top: 8px;
+}
+
+
+.open_end_text_box.text_input {
+	width: 120px;
+}
+
+
+.submit_div {
+	margin-top: 10px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+
+.mobile_grid .mobile_grid_options .input_row.mobile_select {
+	margin-bottom: 8px;
+}
+
+
+</style>
