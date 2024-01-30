@@ -1,81 +1,115 @@
 <style>
+ 
 * {
 	font-family: arial;
 }
-
+ 
 .header1 {
 	letter-spacing: -0.4px;
 }
-
+ 
 .mobile_grid_label {
 	font-size: 16px;
 }
-
+ 
 .mobile_grid_question.row_label_cell {
 	font-size: 16px;
 	font-weight: bold;
 }
-
+ 
 .question_text {
 	font-size: 14px !important;
 	color: black !important;
 	margin-bottom: 4px;
 }
-
+ 
 .row_label_cell {
 	padding: 0px;
 }
-
+ 
 .cbc_concept.best {
 	border: 1.5px solid;
 	border-color: #20AD6B;
 }
-
+ 
 .clickable.response_row.mobile_select {
 	margin-top: 8px;
 }
-
+ 
 .clickable.response_row.acceptable .unacceptable {
     background-color: #d1d1d1;
 	margin-top: 8px;
 }
-
+ 
 .open_end_text_box.text_input {
 	width: 120px;
 }
-
+ 
 .submit_div {
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-right: 2px;
 	padding-left: 2px;
 }
-
+ 
 .mobile_grid .mobile_grid_options .input_row.mobile_select {
 	margin-bottom: 8px;
 }
-
+ 
 .navigation_button.text_nav_button {
 	padding-right: 16px;
 	padding-left: 16px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
-
+ 
 .question.grid {
 	margin-bottom: 16px;
 }
-
-
+ 
 .task_select_button.best_button.adjusted_height {
 	padding-right: 16px;
 	padding-left: 16px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
-
+ 
 .carouselWrapper {
 	margin-bottom: -80px;
 }
-
+ 
+.clickable,
+.clickable > td {
+	position: relative;
+}
+ 
+.disabledGraphicalOverlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	cursor: default;
+}
+ 
+.best_header, .worst_header, .items_header {
+	font-size: 14px !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+}
+ 
+.inner_table {
+	margin-top: 16px !important;
+}
+ 
+.question.maxdiff {
+	margin-bottom: 16px;
+}
+ 
+.header_logo {
+    margin-top: 4px;
+	margin-bottom: 8px;
+}
+ 
 </style>
