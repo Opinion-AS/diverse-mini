@@ -3,17 +3,18 @@
 	font-family: arial;
 }
 
+.header1 {
+	letter-spacing: -0.4px;
+}
 
 .mobile_grid_label {
 	font-size: 16px;
 }
 
-
 .mobile_grid_question.row_label_cell {
 	font-size: 16px;
 	font-weight: bold;
 }
-
 
 .question_text {
 	font-size: 14px !important;
@@ -21,38 +22,60 @@
 	margin-bottom: 4px;
 }
 
-
 .row_label_cell {
 	padding: 0px;
 }
-
 
 .cbc_concept.best {
 	border: 1.5px solid;
 	border-color: #20AD6B;
 }
 
-
 .clickable.response_row.mobile_select {
 	margin-top: 8px;
 }
 
+.clickable.response_row.acceptable .unacceptable {
+    background-color: #d1d1d1;
+	margin-top: 8px;
+}
 
 .open_end_text_box.text_input {
 	width: 120px;
 }
 
-
 .submit_div {
-	margin-top: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 	padding-right: 2px;
 	padding-left: 2px;
 }
-
 
 .mobile_grid .mobile_grid_options .input_row.mobile_select {
 	margin-bottom: 8px;
 }
 
+.navigation_button.text_nav_button {
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.question.grid {
+	margin-bottom: 16px;
+}
+
+
+.task_select_button.best_button.adjusted_height {
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.carouselWrapper {
+	margin-bottom: -80px;
+}
 
 </style>
