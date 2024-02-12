@@ -9,16 +9,16 @@
 }
  
 .mobile_grid_label {
-	font-size: 16px;
+	font-size: 1em;
 }
  
 .mobile_grid_question.row_label_cell {
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: bold;
 }
  
 .question_text {
-	font-size: 14px !important;
+	font-size: 0.8750em !important;
 	color: black !important;
 	margin-bottom: 4px;
 }
@@ -33,12 +33,12 @@
 }
  
 .clickable.response_row.mobile_select {
-	margin-top: 8px;
+	margin-top: 0.5000em;
 }
  
 .clickable.response_row.acceptable .unacceptable {
-    background-color: #d1d1d1;
-	margin-top: 8px;
+        background-color: #d1d1d1;
+	margin-top: 0.5000em;
 }
  
 .open_end_text_box.text_input {
@@ -46,8 +46,8 @@
 }
  
 .submit_div {
-	margin-top: 8px;
-	margin-bottom: 8px;
+	margin-top: 0.5000em;
+	margin-bottom: 0.5000em;
 	padding-right: 2px;
 	padding-left: 2px;
 }
@@ -57,21 +57,21 @@
 }
  
 .navigation_button.text_nav_button {
-	padding-right: 16px;
-	padding-left: 16px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 0.5000em;
+	padding-bottom: 0.5000em;
 }
  
 .question.grid {
-	margin-bottom: 16px;
+	margin-bottom: 1em;
 }
  
 .task_select_button.best_button.adjusted_height {
-	padding-right: 16px;
-	padding-left: 16px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 0.5000em;
+	padding-bottom: 0.5000em;
 }
  
 .carouselWrapper {
@@ -94,17 +94,17 @@
 }
  
 .best_header, .worst_header, .items_header {
-	font-size: 14px !important;
-	padding-top: 8px !important;
-	padding-bottom: 8px !important;
+	font-size: 0.8750em !important;
+	padding-top: 0.5000em !important;
+	padding-bottom: 0.5000em !important;
 }
  
 .inner_table {
-	margin-top: 16px !important;
+	margin-top: 1em !important;
 }
  
 .question.maxdiff {
-	margin-bottom: 16px;
+	margin-bottom: 1em;
 }
  
 .header_logo {
